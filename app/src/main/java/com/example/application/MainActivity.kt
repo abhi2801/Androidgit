@@ -11,5 +11,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         Toast.makeText(this, "first toast", Toast.LENGTH_SHORT).show()
         Log.d("tag","Log added")
+        Log.i("tag","Log added in feature branch ")
     }
 }
